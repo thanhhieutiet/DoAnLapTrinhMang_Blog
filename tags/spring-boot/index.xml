@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring-Boot on Blog cá nhân - Lập trình mạng</title>
-    <link>http://localhost:1313/tags/spring-boot/</link>
+    <link>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/spring-boot/</link>
     <description>Recent content in Spring-Boot on Blog cá nhân - Lập trình mạng</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Thu, 25 Jan 2024 16:20:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/DoAnLapTrinhMang_Blog/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot vs Node.js: Trải nghiệm backend development của mình</title>
-      <link>http://localhost:1313/blog/springboot-vs-nodejs/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/springboot-vs-nodejs/</link>
       <pubDate>Thu, 25 Jan 2024 16:20:00 +0700</pubDate>
-      <guid>http://localhost:1313/blog/springboot-vs-nodejs/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/springboot-vs-nodejs/</guid>
       <description>&lt;p&gt;Xin chào các bạn! Sau khi học cả Java và JavaScript, mình có cơ hội làm việc với cả Spring Boot và Node.js trong các dự án thực tế. Hôm nay mình muốn chia sẻ trải nghiệm của mình khi develop backend với hai platform này.&lt;/p&gt;&#xA;&lt;h2 id=&#34;dự-án-đầu-tiên-với-spring-boot-&#34;&gt;Dự án đầu tiên với Spring Boot 🍃&lt;/h2&gt;&#xA;&lt;h3 id=&#34;setup-ban-đầu&#34;&gt;Setup ban đầu&lt;/h3&gt;&#xA;&lt;p&gt;Khi mới bắt đầu với Spring Boot, mình cảm thấy hơi choáng với số lượng config:&lt;/p&gt;</description>
     </item>
   </channel>

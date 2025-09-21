@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog cá nhân - Lập trình mạng</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/</link>
     <description>Recent content in Categories on Blog cá nhân - Lập trình mạng</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/DoAnLapTrinhMang_Blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/categories/programming/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/programming/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programming/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/java/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Async Programming</title>
-      <link>http://localhost:1313/categories/async-programming/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/async-programming/</link>
       <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/async-programming/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/async-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend Development</title>
-      <link>http://localhost:1313/categories/backend-development/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/backend-development/</link>
       <pubDate>Thu, 25 Jan 2024 16:20:00 +0700</pubDate>
-      <guid>http://localhost:1313/categories/backend-development/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/backend-development/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/categories/javascript/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/javascript/</link>
       <pubDate>Mon, 22 Jan 2024 09:15:00 +0700</pubDate>
-      <guid>http://localhost:1313/categories/javascript/</guid>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/javascript/</guid>
       <description></description>
     </item>
   </channel>
