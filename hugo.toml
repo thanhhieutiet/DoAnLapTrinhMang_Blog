@@ -1,4 +1,5 @@
 baseURL = "https://thanhhieutiet.github.io/DoAnLapTrinhMang_Blog/"
+
 languageCode = "vi"
 title = "Blog cá nhân - Lập trình mạng"
 theme = "Niello"
@@ -71,3 +72,7 @@ staticDir = ["static", "themes/Niello/static"]
 # Xuất ra JSON cho search
 [outputs]
   home = ["HTML", "JSON"]
+
+# Cấu hình cho GitHub Pages
+[build]
+  publishDir = "public"
