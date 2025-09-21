@@ -1,0 +1,73 @@
+baseURL = "https://www.example.com/"
+languageCode = "vi"
+title = "Blog cá nhân - Lập trình mạng"
+theme = "Niello"
+defaultContentLanguage = "vi"
+defaultContentLanguageInSubdir = false
+
+# Static (ảnh, logo)
+staticDir = ["static", "themes/Niello/static"]
+
+
+# Menu chính
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Trang Chủ"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Bài Viết"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Chuyên mục"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Thẻ"
+    url = "/tags/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "about"
+    name = "Về chúng tôi"
+    url = "/about/"
+    weight = 5
+
+
+# Cấu hình params cho theme Niello
+[params]
+
+  [params.google]
+    google_ad_client = ""   # không cần, có thể bỏ trống
+    ga4 = ""                # không cần, có thể bỏ trống
+
+  [params.bannershowcase]
+    categories = ["Java", "JavaScript"]
+    limit = 2
+
+  [params.email]
+    contact = "mailservicecuahiu@gmail.com"
+
+  [params.ignore]
+    categories = ["privacy", "terms", "archives", "cookie"]
+
+  [params.license]
+    copyright = "© 2025 by Hieu Service. All Rights Reserved."
+
+  [params.share]
+    sharethis = ""          # để trống nếu không dùng
+
+  [params.disqus]
+    shortname = ""          # để trống nếu không cần bình luận
+
+# Xuất ra JSON cho search
+[outputs]
+  home = ["HTML", "JSON"]

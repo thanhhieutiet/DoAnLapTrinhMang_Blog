@@ -1,0 +1,782 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <title>
+    
+    Async Programming - Blog cá nhân - Lập trình mạng
+    
+</title>
+    
+    
+    
+    
+    
+    
+    <meta name="keywords" content="Lập trình mạng, Java, Socket, Blog công nghệ">
+    <meta name="description" content="Blog cá nhân về lập trình mạng và công nghệ thông tin">
+    <link rel="canonical" href="http://localhost:1313/categories/async-programming/" />
+    <link rel="icon" href="http://localhost:1313/favicon.ico?v=1758457683" type="image/x-icon">
+    
+<link rel="stylesheet" href="/css/app.css">
+    
+<script src="/js/main.js"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js"></script>
+
+    
+    
+
+    
+    
+
+    
+    
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+  
+    <div class="flex-column">
+        <div class="relative lg:mx-0 w-full h-96 bg-gray-800 border border-gray-800 rounded-2xl overflow-hidden">
+    <div id="swiper" class="flex flex-row transition-transform duration-300 ease-in-out">
+
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/javascript-es6&#43;/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         JavaScript ES6&#43;: Những tính năng đã thay đổi cách mình code 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/5-wrong-errors/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         5 Sai lầm phổ biến khi học Java mà mình đã mắc phải 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/javascript-es6&#43;/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         JavaScript ES6&#43;: Những tính năng đã thay đổi cách mình code 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/5-wrong-errors/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         5 Sai lầm phổ biến khi học Java mà mình đã mắc phải 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        
+    </div>
+    <div id="prevBanner"
+        class="absolute top-1/3 left-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-l-0 backdrop-blur-2xl rounded-tr-3xl rounded-br-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
+        <a href="#" rel="nofollow"
+            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&lt;</a>
+    </div>
+    <div id="nextBanner"
+        class="absolute top-1/3 right-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-r-0 backdrop-blur-2xl rounded-tl-3xl rounded-bl-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
+        <a href="#" rel="nofollow"
+            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&gt;</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const swiper = document.getElementById('swiper');
+        let currentIndex = 1; 
+        const totalImages = swiper.children.length; 
+        const slideWidth = swiper.offsetWidth; 
+        let interval = null; 
+
+        
+        swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`; 
+        swiper.style.transition = 'none'; 
+
+        
+        function moveToNextSlide() {
+            currentIndex++;
+            swiper.style.transition = 'transform 0.3s ease-in-out';
+            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+            
+            if (currentIndex === totalImages - 1) {
+                setTimeout(function () {
+                    swiper.style.transition = 'none'; 
+                    currentIndex = 1; 
+                    swiper.style.transform = `translateX(-${slideWidth}px)`;
+                }, 300); 
+            }
+        }
+
+        
+        function moveToPreviousSlide() {
+            currentIndex--;
+            swiper.style.transition = 'transform 0.3s ease-in-out';
+            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+            
+            if (currentIndex === 0) {
+                setTimeout(function () {
+                    swiper.style.transition = 'none'; 
+                    currentIndex = totalImages - 2; 
+                    swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                }, 300); 
+            }
+        }
+
+        
+        function startAutoPlay() {
+            interval = setInterval(moveToNextSlide, 3000);
+        }
+
+        
+        function stopAutoPlay() {
+            clearInterval(interval);
+        }
+
+        
+        swiper.addEventListener('mouseenter', stopAutoPlay);
+        swiper.addEventListener('mouseleave', startAutoPlay);
+
+        
+        document.getElementById('prevBanner').addEventListener('click', function () {
+            stopAutoPlay();
+            moveToPreviousSlide();
+            startAutoPlay();
+        });
+
+        document.getElementById('nextBanner').addEventListener('click', function () {
+            stopAutoPlay();
+            moveToNextSlide();
+            startAutoPlay();
+        });
+
+        
+        startAutoPlay();
+    });
+</script>
+        <div class="home">
+            <div class="logo">
+                <h1><a href="/">Async Programming</a></h1>
+            </div>
+            <div x-data="{ openMenu: false }" class="relative">
+    <nav class="flex flex-1 flex-col lg:flex-row items-center justify-between">
+        <a href="/">
+            <img src="/image/logo.webp?v=1758457683" alt="Logo"
+                class="w-16 h-16 my-5 p-1 bg-gray-100 rounded-full object-cover cursor-pointer hover:scale-110" />
+        </a>
+        <div class="hidden lg:block" :class="{'hidden': !openMenu}">
+            
+
+
+
+
+
+
+<ul
+    class="flex flex-col lg:flex-row justify-end mt-2 sm:mt-5 mb-5 pb-2 font-light text-xl lg:text-2xl gap-5 lg:gap-1 text-center">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/"  >Trang chủ</a>
+    
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/blog/"  >Bài Viết</a>
+    
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/categories/"  >Chuyên mục</a>
+    
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/tags/"  >Thẻ</a>
+    
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/about/"  >Về chúng tôi</a>
+    
+</li>
+
+
+</ul>
+
+
+
+
+        </div>
+    </nav>
+    <div class="absolute top-8 right-5 flex items-center lg:hidden">
+        
+        <button @click="openMenu = !openMenu" type="button"
+            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-800 hover:text-gray-100 focus:outline-hidden focus:ring-2 focus:ring-inset focus:ring-white"
+            aria-controls="mobile-menu" aria-expanded="openMenu">
+            
+            <svg x-show="!openMenu" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            
+            <svg x-show="openMenu" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+</div>
+            <div>
+            
+                <article>
+					<h3><span class="listarrow">&#10132; <a href="/blog/promise-vs-completablefuture/intex/">Async Programming: Promise (JS) vs CompletableFuture (Java) - Battle of Asynchronous!</a><span></h3>
+                    <div class="less">
+                        <time>Published: Saturday, Sep 28, 2024</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;6 minute read
+                    </div>
+                    <div class="em"><p>Chào các bạn! Async programming là một trong những concepts khó nhất khi học lập trình. Mình đã struggle với nó khá lâu, từ callback hell của JavaScript đến thread complexity của Java. Hôm nay mình muốn chia sẻ cách hai ngôn ngữ này handle async operations - JavaScript với Promise và Java với CompletableFuture.</p>
+<h2 id="câu-chuyện-bắt-đầu-từ-synchronous-hell">Câu chuyện bắt đầu từ Synchronous Hell</h2>
+<h3 id="javascript---callback-hell">JavaScript - Callback Hell</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Cách xưa - callback nightmare!
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserData</span>(<span style="color:#a6e22e">userId</span>, <span style="color:#a6e22e">callback</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>, (<span style="color:#a6e22e">user</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">user</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>, (<span style="color:#a6e22e">profile</span>) =&gt; {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">profile</span>) {
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>, (<span style="color:#a6e22e">posts</span>) =&gt; {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">posts</span>) {
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">fetchPostComments</span>(<span style="color:#a6e22e">posts</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">id</span>, (<span style="color:#a6e22e">comments</span>) =&gt; {
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// 4 levels deep! Pyramid of doom 😱
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#a6e22e">callback</span>({ <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span>, <span style="color:#a6e22e">comments</span> });
+</span></span><span style="display:flex;"><span>              });
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>              <span style="color:#a6e22e">callback</span>(<span style="color:#66d9ef">null</span>, <span style="color:#e6db74">&#34;No posts found&#34;</span>);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>          });
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">callback</span>(<span style="color:#66d9ef">null</span>, <span style="color:#e6db74">&#34;Profile not found&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">callback</span>(<span style="color:#66d9ef">null</span>, <span style="color:#e6db74">&#34;User not found&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="java---thread-complexity">Java - Thread Complexity</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Cách xưa với Thread</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUserDataOldWay</span>(String userId) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> Thread(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            User user <span style="color:#f92672">=</span> fetchUser(userId);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (user <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">new</span> Thread(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                        Profile profile <span style="color:#f92672">=</span> fetchUserProfile(user.<span style="color:#a6e22e">getId</span>());
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span> (profile <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                            <span style="color:#75715e">// Nested threads everywhere! 😫</span>
+</span></span><span style="display:flex;"><span>                            <span style="color:#75715e">// Error handling nightmare</span>
+</span></span><span style="display:flex;"><span>                            <span style="color:#75715e">// No easy way to combine results</span>
+</span></span><span style="display:flex;"><span>                        }
+</span></span><span style="display:flex;"><span>                    } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>                        <span style="color:#75715e">// Handle error</span>
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                }).<span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Handle error</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }).<span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="javascript-promise---giải-cứu-từ-callback-hell">JavaScript Promise - Giải cứu từ Callback Hell</h2>
+<h3 id="promise-basics">Promise Basics</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Tạo Promise đơn giản
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">resolve</span>, <span style="color:#a6e22e">reject</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Simulate API call
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">setTimeout</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">userId</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">resolve</span>({ <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">userId</span>, <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`User </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">userId</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span> });
+</span></span><span style="display:flex;"><span>      } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">reject</span>(<span style="color:#66d9ef">new</span> Error(<span style="color:#e6db74">&#34;Invalid user ID&#34;</span>));
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }, <span style="color:#ae81ff">1000</span>);
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Sử dụng Promise
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">fetchUser</span>(<span style="color:#ae81ff">123</span>)
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">user</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;User:&#34;</span>, <span style="color:#a6e22e">user</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">user</span>; <span style="color:#75715e">// Pass data to next .then()
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  })
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">user</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Chain another async operation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">profile</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Profile:&#34;</span>, <span style="color:#a6e22e">profile</span>);
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  .<span style="color:#66d9ef">catch</span>((<span style="color:#a6e22e">error</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Error:&#34;</span>, <span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  .<span style="color:#66d9ef">finally</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Cleanup code here&#34;</span>);
+</span></span><span style="display:flex;"><span>  });
+</span></span></code></pre></div><h3 id="promiseall---chạy-song-song">Promise.all() - Chạy song song</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Thay vì chạy tuần tự
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserDataSequential</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>); <span style="color:#75715e">// 1s
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">profile</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">userId</span>); <span style="color:#75715e">// 1s
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">posts</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">userId</span>); <span style="color:#75715e">// 1s
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// Total: 3s
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span> };
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Chạy song song với Promise.all()
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserDataParallel</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> Promise.<span style="color:#a6e22e">all</span>([
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>), <span style="color:#75715e">// All run in parallel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">userId</span>), <span style="color:#75715e">// Total: 1s (longest operation)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">userId</span>),
+</span></span><span style="display:flex;"><span>  ]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span> };
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Promise.allSettled() - Không fail nếu 1 promise reject
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserDataSafe</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> Promise.<span style="color:#a6e22e">allSettled</span>([
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">userId</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">userId</span>),
+</span></span><span style="display:flex;"><span>  ]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">result</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">status</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;fulfilled&#34;</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">value</span>;
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Failed:&#34;</span>, <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">reason</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="asyncawait---promise-syntax-đường">Async/Await - Promise syntax đường</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Từ Promise chain
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserData</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>)
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">user</span>) =&gt; <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>))
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">profile</span>) =&gt; <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">profile</span>.<span style="color:#a6e22e">userId</span>))
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">posts</span>) =&gt; ({ <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span> }))
+</span></span><span style="display:flex;"><span>    .<span style="color:#66d9ef">catch</span>((<span style="color:#a6e22e">error</span>) =&gt; {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Error:&#34;</span>, <span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">error</span>;
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Đến async/await - clean hơn nhiều!
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getUserData</span>(<span style="color:#a6e22e">userId</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">userId</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">profile</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUserProfile</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">posts</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUserPosts</span>(<span style="color:#a6e22e">profile</span>.<span style="color:#a6e22e">userId</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">profile</span>, <span style="color:#a6e22e">posts</span> };
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Error:&#34;</span>, <span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">error</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="java-completablefuture---modern-async-java">Java CompletableFuture - Modern Async Java</h2>
+<h3 id="completablefuture-basics">CompletableFuture Basics</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.concurrent.CompletableFuture;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.concurrent.ExecutorService;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.concurrent.Executors;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AsyncService</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> ExecutorService executor <span style="color:#f92672">=</span> Executors.<span style="color:#a6e22e">newFixedThreadPool</span>(10);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Tạo CompletableFuture đơn giản</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>User<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">fetchUser</span>(String userId) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> CompletableFuture.<span style="color:#a6e22e">supplyAsync</span>(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Simulate delay</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                Thread.<span style="color:#a6e22e">sleep</span>(1000);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (Integer.<span style="color:#a6e22e">parseInt</span>(userId) <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> User(userId, <span style="color:#e6db74">&#34;User &#34;</span> <span style="color:#f92672">+</span> userId);
+</span></span><span style="display:flex;"><span>                } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(<span style="color:#e6db74">&#34;Invalid user ID&#34;</span>);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (InterruptedException e) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(e);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }, executor);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Chain operations</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>UserData<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">getUserData</span>(String userId) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> fetchUser(userId)
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">thenCompose</span>(user <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>                fetchUserProfile(user.<span style="color:#a6e22e">getId</span>())
+</span></span><span style="display:flex;"><span>                    .<span style="color:#a6e22e">thenApply</span>(profile <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">new</span> UserData(user, profile))
+</span></span><span style="display:flex;"><span>            )
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">thenCompose</span>(userData <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>                fetchUserPosts(userData.<span style="color:#a6e22e">getUser</span>().<span style="color:#a6e22e">getId</span>())
+</span></span><span style="display:flex;"><span>                    .<span style="color:#a6e22e">thenApply</span>(posts <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>                        userData.<span style="color:#a6e22e">setPosts</span>(posts);
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">return</span> userData;
+</span></span><span style="display:flex;"><span>                    })
+</span></span><span style="display:flex;"><span>            )
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">exceptionally</span>(throwable <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Error: &#34;</span> <span style="color:#f92672">+</span> throwable.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="parallel-execution-với-completablefuture">Parallel Execution với CompletableFuture</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>UserData<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">getUserDataParallel</span>(String userId) {
+</span></span><span style="display:flex;"><span>    CompletableFuture<span style="color:#f92672">&lt;</span>User<span style="color:#f92672">&gt;</span> userFuture <span style="color:#f92672">=</span> fetchUser(userId);
+</span></span><span style="display:flex;"><span>    CompletableFuture<span style="color:#f92672">&lt;</span>Profile<span style="color:#f92672">&gt;</span> profileFuture <span style="color:#f92672">=</span> fetchUserProfile(userId);
+</span></span><span style="display:flex;"><span>    CompletableFuture<span style="color:#f92672">&lt;</span>List<span style="color:#f92672">&lt;</span>Post<span style="color:#f92672">&gt;&gt;</span> postsFuture <span style="color:#f92672">=</span> fetchUserPosts(userId);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Combine all results</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> userFuture.<span style="color:#a6e22e">thenCombine</span>(profileFuture, (user, profile) <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">new</span> UserData(user, profile)
+</span></span><span style="display:flex;"><span>    ).<span style="color:#a6e22e">thenCombine</span>(postsFuture, (userData, posts) <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>        userData.<span style="color:#a6e22e">setPosts</span>(posts);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> userData;
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// allOf() - giống Promise.all()</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;&gt;</span> <span style="color:#a6e22e">fetchMultipleUsers</span>(List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> userIds) {
+</span></span><span style="display:flex;"><span>    List<span style="color:#f92672">&lt;</span>CompletableFuture<span style="color:#f92672">&lt;</span>User<span style="color:#f92672">&gt;&gt;</span> futures <span style="color:#f92672">=</span> userIds.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>        .<span style="color:#a6e22e">map</span>(<span style="color:#66d9ef">this</span>::fetchUser)
+</span></span><span style="display:flex;"><span>        .<span style="color:#a6e22e">collect</span>(Collectors.<span style="color:#a6e22e">toList</span>());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    CompletableFuture<span style="color:#f92672">&lt;</span>Void<span style="color:#f92672">&gt;</span> allFutures <span style="color:#f92672">=</span> CompletableFuture.<span style="color:#a6e22e">allOf</span>(
+</span></span><span style="display:flex;"><span>        futures.<span style="color:#a6e22e">toArray</span>(<span style="color:#66d9ef">new</span> CompletableFuture<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>)
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> allFutures.<span style="color:#a6e22e">thenApply</span>(v <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        futures.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">map</span>(CompletableFuture::join) <span style="color:#75715e">// Get results</span>
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">map</span>(User::getName)
+</span></span><span style="display:flex;"><span>            .<span style="color:#a6e22e">collect</span>(Collectors.<span style="color:#a6e22e">toList</span>())
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="so-sánh-trực-tiếp-promise-vs-completablefuture">So sánh trực tiếp Promise vs CompletableFuture</h2>
+<h3 id="1-tạo-async-operation">1. Tạo async operation</h3>
+<p><strong>JavaScript:</strong></p></div>
+                    
+                    <small><a href="/blog/promise-vs-completablefuture/intex/">Read More &gt;&gt;</a></small>
+                    
+                <article>
+            
+            </div>
+            <div class="pages">
+                
+                Page 1 of 1 
+                
+            </div>
+            <div class="line-dotted"></div>
+            <footer class="flex flex-col lg:flex-row items-center justify-center gap-2 text-xl mt-8 py-8 border-t border-gray-100/10">
+    <div class="text-center text-gray-500/80">
+        
+        © 2025 by Hieu Service. All Rights Reserved.
+        
+    </div>
+    <div>
+        
+        <a class="hover:text-gray-100" href=" /vi "></a>
+        
+    </div>
+</footer>
+        </div>
+        <div class="relative lg:mx-0 w-full h-96 bg-gray-800 border border-gray-800 rounded-2xl overflow-hidden">
+    <div id="swiper" class="flex flex-row transition-transform duration-300 ease-in-out">
+
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/javascript-es6&#43;/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         JavaScript ES6&#43;: Những tính năng đã thay đổi cách mình code 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/5-wrong-errors/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         5 Sai lầm phổ biến khi học Java mà mình đã mắc phải 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/javascript-es6&#43;/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         JavaScript ES6&#43;: Những tính năng đã thay đổi cách mình code 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        <div class="relative w-full h-96 shrink-0">
+            <a href="/blog/5-wrong-errors/" class="hover:cursor-pointer">
+                
+                
+                <img src="http://localhost:1313/blog/java-socket/featured.jpg" alt="" class="w-full h-96 object-cover rounded-lg">
+                
+                <div
+                    class="absolute inset-x-0 bottom-0 h-auto pt-3 pb-5 overflow-hidden bg-gray-600/30 backdrop-blur-xl">
+                    <h3
+                        class="mt-2 lg:py-2 line-clamp-1 text-center text-2xl font-medium leading-none text-gray-100 hover:text-gray-600">
+                         5 Sai lầm phổ biến khi học Java mà mình đã mắc phải 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        
+        
+    </div>
+    <div id="prevBanner"
+        class="absolute top-1/3 left-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-l-0 backdrop-blur-2xl rounded-tr-3xl rounded-br-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
+        <a href="#" rel="nofollow"
+            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&lt;</a>
+    </div>
+    <div id="nextBanner"
+        class="absolute top-1/3 right-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-r-0 backdrop-blur-2xl rounded-tl-3xl rounded-bl-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
+        <a href="#" rel="nofollow"
+            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&gt;</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const swiper = document.getElementById('swiper');
+        let currentIndex = 1; 
+        const totalImages = swiper.children.length; 
+        const slideWidth = swiper.offsetWidth; 
+        let interval = null; 
+
+        
+        swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`; 
+        swiper.style.transition = 'none'; 
+
+        
+        function moveToNextSlide() {
+            currentIndex++;
+            swiper.style.transition = 'transform 0.3s ease-in-out';
+            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+            
+            if (currentIndex === totalImages - 1) {
+                setTimeout(function () {
+                    swiper.style.transition = 'none'; 
+                    currentIndex = 1; 
+                    swiper.style.transform = `translateX(-${slideWidth}px)`;
+                }, 300); 
+            }
+        }
+
+        
+        function moveToPreviousSlide() {
+            currentIndex--;
+            swiper.style.transition = 'transform 0.3s ease-in-out';
+            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+            
+            if (currentIndex === 0) {
+                setTimeout(function () {
+                    swiper.style.transition = 'none'; 
+                    currentIndex = totalImages - 2; 
+                    swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                }, 300); 
+            }
+        }
+
+        
+        function startAutoPlay() {
+            interval = setInterval(moveToNextSlide, 3000);
+        }
+
+        
+        function stopAutoPlay() {
+            clearInterval(interval);
+        }
+
+        
+        swiper.addEventListener('mouseenter', stopAutoPlay);
+        swiper.addEventListener('mouseleave', startAutoPlay);
+
+        
+        document.getElementById('prevBanner').addEventListener('click', function () {
+            stopAutoPlay();
+            moveToPreviousSlide();
+            startAutoPlay();
+        });
+
+        document.getElementById('nextBanner').addEventListener('click', function () {
+            stopAutoPlay();
+            moveToNextSlide();
+            startAutoPlay();
+        });
+
+        
+        startAutoPlay();
+    });
+</script><div class="cookie-container text-center py-12 text-xl lg:text-2xl font-thin text-gray-500">
+  
+  <p>
+    We use cookies on this website to give you the best experience on our
+    site and show you relevant ads. To find out more, read our
+    <a href="/vi/privacy/" class="text-red-600">privacy policy</a> and <a href="/vi/terms/" class="text-red-600">cookie
+      policy</a>.
+  </p>
+  
+  
+  <button class="cookie-btn w-32 h-12 lg:h-16 mt-5 py-2 bg-red-600 text-white rounded-full hover:scale-105">
+    Okay
+  </button>
+</div>
+<script src="/js/cookie.js"></script></div>
+
+
+  <script src="/%20js/cookie.js"></script>
+</body>
+</html>

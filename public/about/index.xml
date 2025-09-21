@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Blog cá nhân - Lập trình mạng</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Blog cá nhân - Lập trình mạng</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;xin-chào-&#34;&gt;Xin chào 👋&lt;/h1&gt;&#xA;&lt;p&gt;Mình là &lt;strong&gt;Hieu Service&lt;/strong&gt;.&lt;br&gt;&#xA;Đây là blog cá nhân nơi mình chia sẻ kiến thức về &lt;strong&gt;Java &amp;amp; JavaScript&lt;/strong&gt;, đặc biệt trong mảng &lt;strong&gt;lập trình mạng&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

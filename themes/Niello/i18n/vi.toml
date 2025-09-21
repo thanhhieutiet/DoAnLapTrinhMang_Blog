@@ -1,0 +1,80 @@
+[sitename]
+other = "Niello - Giao diện Hugo"
+
+[siteslogan]
+other = "Khẩu hiệu trang web của bạn."
+
+[siteseokeywords]
+other = "Từ khóa SEO"
+
+[siteseodescription]
+other = "Mô tả SEO"
+
+[search]
+other = "Tìm kiếm"
+
+[searchplaceholder]
+other = "Nhập từ khóa..."
+
+[searching]
+other = "Đang tìm kiếm..."
+
+[keywordmissing]
+other = "Vui lòng nhập từ khóa để tìm kiếm."
+
+[nomatch]
+other = "Không tìm thấy kết quả"
+
+[home]
+other = "Trang chủ"
+
+[next]
+other = "Tiếp theo >>"
+
+[previous]
+other = "<< Trước đó"
+
+[recommendpost]
+other = "Bài viết đề xuất"
+
+[intro]
+other = "Giới thiệu"
+
+[topost]
+other = "Bài viết mới nhất"
+
+[topcat]
+other = "Danh mục nổi bật"
+
+[toptag]
+other = "Thẻ phổ biến"
+
+[archive]
+other = "Thống kê lưu trữ"
+
+[contact]
+other = "Liên hệ"
+
+[emptypost]
+other = "Chưa có bài viết"
+
+[emptycat]
+other = "Chưa có danh mục"
+
+[emptytag]
+other = "Chưa có thẻ"
+
+[emptyarchive]
+other = "Chưa có lưu trữ"
+
+[missing404title]
+other = "Không tìm thấy trang"
+
+[missing404body]
+other = "Xin lỗi, chúng tôi không thể tìm thấy trang bạn yêu cầu."
+
+[articlelink]
+other = "Liên kết bài viết"
+
+[archivefmt]
+other = "Tháng 01, 2006"
