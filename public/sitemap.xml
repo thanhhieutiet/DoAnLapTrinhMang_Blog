@@ -2,64 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/about/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hoc-tap/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/hoc-tap/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/java/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/java/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/javascript/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-socket/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/java-socket/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kinh-nghiem/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/kinh-nghiem/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/networking/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/programming/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-to-javascript/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/java-to-javascript/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/5-wrong-errors/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/5-wrong-errors/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/java/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/java/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sai-lam/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/sai-lam/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/es6/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/async/</loc>
+    <lastmod>2024-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/async-programming/</loc>
+    <lastmod>2024-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/promise-vs-completablefuture/intex/</loc>
+    <lastmod>2024-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/completablefuture/</loc>
+    <lastmod>2024-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/promise/</loc>
+    <lastmod>2024-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/backend/</loc>
+    <lastmod>2024-01-25T16:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/backend-development/</loc>
+    <lastmod>2024-01-25T16:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/nodejs/</loc>
+    <lastmod>2024-01-25T16:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/springboot-vs-nodejs/</loc>
+    <lastmod>2024-01-25T16:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/spring-boot/</loc>
+    <lastmod>2024-01-25T16:20:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/es6/</loc>
     <lastmod>2024-01-22T09:15:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/javascript/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/categories/javascript/</loc>
     <lastmod>2024-01-22T09:15:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/javascript-es6&#43;/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/javascript-es6&#43;/</loc>
     <lastmod>2024-01-22T09:15:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/modern-js/</loc>
+    <loc>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/modern-js/</loc>
     <lastmod>2024-01-22T09:15:00+07:00</lastmod>
   </url>
 </urlset>

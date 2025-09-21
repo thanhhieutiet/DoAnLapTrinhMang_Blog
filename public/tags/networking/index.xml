@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Blog cá nhân - Lập trình mạng</title>
-    <link>http://localhost:1313/tags/networking/</link>
+    <link>http://localhost:1313/DoAnLapTrinhMang_Blog/tags/networking/</link>
     <description>Recent content in Networking on Blog cá nhân - Lập trình mạng</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/DoAnLapTrinhMang_Blog/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kết nối Socket trong Java</title>
-      <link>http://localhost:1313/blog/java-socket/</link>
+      <link>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/java-socket/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/java-socket/</guid>
-      <description>&lt;p&gt;Trong lập trình mạng bằng Java, &lt;code&gt;Socket&lt;/code&gt; là công cụ giúp kết nối giữa client và server.&lt;br&gt;&#xA;Bằng cách sử dụng &lt;strong&gt;java.net.Socket&lt;/strong&gt; và &lt;strong&gt;java.net.ServerSocket&lt;/strong&gt;, ta có thể xây dựng các ứng dụng chat, truyền file hoặc HTTP server đơn giản.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/java-socket/socket-diagram.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Mô hình Client-Server cơ bản trong lập trình Socket&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Ở mức thấp hơn, kết nối TCP được thiết lập qua quá trình &lt;strong&gt;bắt tay 3 bước (TCP Handshake)&lt;/strong&gt;.&lt;br&gt;&#xA;Điều này đảm bảo client và server đồng bộ trạng thái trước khi truyền dữ liệu.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/DoAnLapTrinhMang_Blog/blog/java-socket/</guid>
+      <description>&lt;p&gt;Trong lập trình mạng bằng Java, &lt;code&gt;Socket&lt;/code&gt; là công cụ giúp kết nối giữa client và server.&lt;br&gt;&#xA;Bằng cách sử dụng &lt;strong&gt;java.net.Socket&lt;/strong&gt; và &lt;strong&gt;java.net.ServerSocket&lt;/strong&gt;, ta có thể xây dựng các ứng dụng chat, truyền file hoặc HTTP server đơn giản.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/DoAnLapTrinhMang_Blog/blog/java-socket/socket-diagram.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Mô hình Client-Server cơ bản trong lập trình Socket&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Ở mức thấp hơn, kết nối TCP được thiết lập qua quá trình &lt;strong&gt;bắt tay 3 bước (TCP Handshake)&lt;/strong&gt;.&lt;br&gt;&#xA;Điều này đảm bảo client và server đồng bộ trạng thái trước khi truyền dữ liệu.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
