@@ -5,7 +5,7 @@ tags: ["javascript", "java", "async", "promise", "completablefuture"]
 categories: ["Async Programming"]
 author: "Tên bạn"
 description: "So sánh cách xử lý bất đồng bộ giữa JavaScript Promise và Java CompletableFuture"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Chào các bạn! Async programming là một trong những concepts khó nhất khi học lập trình. Mình đã struggle với nó khá lâu, từ callback hell của JavaScript đến thread complexity của Java. Hôm nay mình muốn chia sẻ cách hai ngôn ngữ này handle async operations - JavaScript với Promise và Java với CompletableFuture.

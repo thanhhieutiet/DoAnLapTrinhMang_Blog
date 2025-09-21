@@ -2,7 +2,7 @@
 title: "Kết nối Socket trong Java"
 date: 2025-09-21
 tags: ["Java", "Networking"]
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Trong lập trình mạng bằng Java, `Socket` là công cụ giúp kết nối giữa client và server.  

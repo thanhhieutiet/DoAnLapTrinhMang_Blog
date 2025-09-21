@@ -5,7 +5,7 @@ tags: ["java", "javascript", "kinh-nghiem", "hoc-tap"]
 categories: ["Programming"]
 author: "Tiết Thanh Minh Hiếu"
 description: "Chia sẻ về hành trình từ Java đến JavaScript và những bài học quý giá mình đã rút ra được"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Chào các bạn! Hôm nay mình muốn chia sẻ về hành trình học lập trình của mình, từ Java đến JavaScript. Có lẽ nhiều bạn cũng đang băn khoăn giống mình: nên bắt đầu với ngôn ngữ nào? Học Java trước hay JavaScript trước?

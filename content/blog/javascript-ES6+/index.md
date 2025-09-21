@@ -5,7 +5,7 @@ tags: ["javascript", "es6", "modern-js", "kinh-nghiem"]
 categories: ["JavaScript"]
 author: "Tên bạn"
 description: "Khám phá những tính năng ES6+ đã cách mạng hóa cách viết JavaScript của mình"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Chào mọi người! Khi mới học JavaScript, mình chỉ biết đến cú pháp cũ ES5. Nhưng khi tiếp xúc với ES6+ (ES2015 trở lên), thật sự mình cảm thấy như được "khai sáng". Hôm nay mình muốn chia sẻ những tính năng ES6+ đã thay đổi hoàn toàn cách mình viết JavaScript.

@@ -5,7 +5,7 @@ tags: ["java", "javascript", "design-patterns", "oop", "architecture"]
 categories: ["Software Design"]
 author: "Tên bạn"
 description: "So sánh cách implement các Design Patterns phổ biến trong Java và JavaScript"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Chào mọi người! Design Patterns là một chủ đề mà mình nghĩ rất quan trọng nhưng lại khá dry khi học lý thuyết. Hôm nay mình muốn chia sẻ cách implement một số patterns phổ biến trong cả Java và JavaScript, qua những ví dụ thực tế mà mình đã áp dụng trong các dự án.

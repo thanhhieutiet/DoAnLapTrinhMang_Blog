@@ -5,7 +5,7 @@ tags: ["java", "javascript", "spring-boot", "nodejs", "backend"]
 categories: ["Backend Development"]
 author: "Tên bạn"
 description: "So sánh thực tế giữa Spring Boot và Node.js qua kinh nghiệm làm dự án backend"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Xin chào các bạn! Sau khi học cả Java và JavaScript, mình có cơ hội làm việc với cả Spring Boot và Node.js trong các dự án thực tế. Hôm nay mình muốn chia sẻ trải nghiệm của mình khi develop backend với hai platform này.

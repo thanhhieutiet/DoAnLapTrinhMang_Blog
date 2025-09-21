@@ -5,7 +5,7 @@ tags: ["java", "sai-lam", "kinh-nghiem", "hoc-tap"]
 categories: ["Java"]
 author: "Tên bạn"
 description: "Những sai lầm cơ bản khi học Java và cách khắc phục chúng qua kinh nghiệm thực tế"
-featuredImage: "/blog/java-socket/featured.jpg"
+featuredImage: "/images/featured.jpg"
 ---
 
 Xin chào các bạn! Hôm nay mình muốn chia sẻ về những sai lầm "kinh điển" mà hầu như ai học Java cũng mắc phải, bao gồm cả mình. Hy vọng qua bài viết này, các bạn newbie sẽ tránh được những "hố đen" mà mình đã rơi vào.
