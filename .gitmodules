@@ -1,0 +1,3 @@
+[submodule "Niello"]
+	path = Niello
+	url = https://github.com/guangmean/Niello.git
